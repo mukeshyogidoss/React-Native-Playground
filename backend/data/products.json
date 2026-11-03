@@ -1,0 +1,36 @@
+[
+  {
+    "name": "NVIDIA GeForce RTX50",
+    "price": "7,00,000",
+    "description": "The Ultimate Platform for Gamers and Creators",
+    "category": "Graphics Card",
+    "seller": "NIVIDIA",
+    "stock": "3",
+    "numOfReviews": "34",
+    "images": [
+      {
+        "image": "https://m.media-amazon.com/images/I/71a2afWp9LL._SX679_.jpg"
+      },
+      {
+        "image": "https://m.media-amazon.com/images/I/71peh2eu8XL._SX679_.jpg"
+      }
+    ]
+  },
+  {
+    "name": "PlayStation®5",
+    "price": "49,000",
+    "description": "Next-gen speed and immersion.",
+    "category": "Gaming",
+    "seller": "Sony",
+    "stock": "354",
+    "numOfReviews": "293",
+    "images": [
+      {
+        "image": "https://gmedia.playstation.com/is/image/SIEPDC/ps5-disc-edition-box-image-block-01-en-02apr25?$1200px--t$"
+      },
+      {
+        "image": "https://rukminim2.flixcart.com/image/1358/1358/xif0q/gamingconsole/q/z/y/-original-imahh7fns6hdkwqe.jpeg?q=90"
+      }
+    ]
+  }
+]
