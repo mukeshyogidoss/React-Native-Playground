@@ -3,6 +3,7 @@ import { FlatList, Text, TouchableOpacity, View } from "react-native";
 
 export default function Index() {
   const screens = [
+    { title: "FCM Push Notifications 🚀", path: "/screens/FCMScreen" },
     { title: "Notifications Screen 🔔", path: "/screens/Notifications" },
     { title: "Use State Screen", path: "/screens/UseState" },
     { title: "Use Effect Screen", path: "/screens/UseEffect" },
