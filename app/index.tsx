@@ -1,8 +1,9 @@
-import { router } from "expo-router";
+import { router, type Href } from "expo-router";
 import { FlatList, Text, TouchableOpacity, View } from "react-native";
 
 export default function Index() {
   const screens = [
+    { title: "Notifications Screen 🔔", path: "/screens/Notifications" },
     { title: "Use State Screen", path: "/screens/UseState" },
     { title: "Use Effect Screen", path: "/screens/UseEffect" },
     { title: "Use Ref Screen", path: "/screens/UseRefScr" },
@@ -52,7 +53,7 @@ export default function Index() {
           }}
           renderItem={({ item }) => (
             <TouchableOpacity
-              onPress={() => router.push(item?.path)}
+              onPress={() => router.push(item.path as Href)}
               style={{
                 marginVertical: 13,
                 backgroundColor: "#084c1d",

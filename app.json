@@ -32,6 +32,13 @@
     "plugins": [
       "expo-router",
       [
+        "./plugins/withCustomNotificationSounds",
+        [
+          "./assets/sounds/zomato.mp3",
+          "./assets/sounds/zomato_ring_5.mp3"
+        ]
+      ],
+      [
         "expo-splash-screen",
         {
           "image": "./assets/images/splash-icon.png",
