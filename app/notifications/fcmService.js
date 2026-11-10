@@ -61,11 +61,11 @@ export async function registerForPushNotificationsAsync() {
         bypassDnd: false,
       });
 
-      // Channel 2: Standard Default Channel
+      // Channel 2: Standard Default Channel (omitting 'sound' uses Android's true default notification sound)
       await Notifications.setNotificationChannelAsync(FCM_CHANNELS.DEFAULT, {
         name: 'FCM General Alerts',
         importance: Notifications.AndroidImportance.HIGH,
-        sound: 'default',
+        sound: undefined,
         vibrationPattern: [0, 250, 250, 250],
       });
     }
